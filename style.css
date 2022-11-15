@@ -1,0 +1,100 @@
+
+html{
+    padding: 0;
+    margin: auto;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg) ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 50px right 700px, top 300px left 650px ;
+    background-color: hsl(185, 75%, 39%);
+}
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  color: hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+ }
+ .flex-container{
+    display:  flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    border-radius: 20px;
+    background-position: top;
+    margin-top: 100px;
+    margin-bottom: auto;
+
+    
+   max-width: 350px;
+    max-height: 400px;
+  
+ }
+ .victor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px ;
+  border-width: 50px;
+  border: 7px solid white;
+  border-radius: 100px;
+    }
+    .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1em;
+    position: relative;
+    bottom: 100px;
+    
+    
+
+  }
+  .london{
+    margin:1px ;
+    padding: 1px;
+    position: relative;
+    bottom: 30px;
+    font-size: 15px;
+  }
+  .name{
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color:rgb(88, 88, 88)
+    }
+    .number{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      bottom: 120px;
+    }
+    .number>div{
+      position: relative;
+      top: 20px;
+      padding-left: 15px;
+      font-weight: 700;
+      color: rgb(88, 88, 88);
+}
+.number>p{
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top: 12px;
+  
+}
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  html  {
+    min-width:100% ;
+  }
+}
